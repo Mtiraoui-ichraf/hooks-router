@@ -1,0 +1,19 @@
+/* div{
+    background-color: bisque;
+    margin-top:'100px';
+    display:'flex';
+    flex-direction:'row';
+    justify-content:'center';
+} */
+.Add_movie{
+    height: 200px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.883);
+    padding: 80px;
+    position: relative;
+}
+.inputs{
+    position: absolute;
+    bottom: 0px;
+    right:15px;
+}

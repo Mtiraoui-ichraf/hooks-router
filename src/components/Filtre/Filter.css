@@ -1,0 +1,14 @@
+.search_holder{
+    background-color: rgba(0, 0, 0, 0.883);
+    border-bottom:2px solid rgba(0, 0, 0, 0.362);
+}
+.search_holder input{
+    position: absolute;
+    top: -16px;
+    left :20px;
+}
+.stars{
+    position: absolute;
+    top: -190px;
+    right :-550px;
+}

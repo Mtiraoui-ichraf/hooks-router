@@ -1,0 +1,48 @@
+.description_body{
+    background-color: rgba(0, 0, 0, 0.883) ;
+    height :100vh;
+
+} 
+.wrapper{
+    width: 80%;
+    margin: auto;
+    padding-top: 100px;
+    display: grid;
+    gap :20px;
+    grid-template: 10fr 1fr/4fr 1fr ;
+    color: azure;
+    grid-template-areas: 
+    'title description'
+    'button button'
+    ;
+}
+.title{
+    grid-area: title;
+    text-align: left;
+    width: 80%;
+    border: 1px solid rgba(249, 5, 5, 0.785);
+    padding: 5px;
+}
+.title h1{
+    text-align: center;
+    padding-bottom: 50px;
+}
+.trailer{
+    grid-area: description;
+}
+.back_btn{
+    grid-area: button;
+    text-align: left;
+}
+.back_btn button{
+    justify-self: left;
+    width: 100px;
+    background-color:  rgba(179, 13, 13, 0.83);
+    color: aliceblue;
+    font-weight: 400;
+    border: none;
+    padding: 5px;
+}
+.back_btn button:hover{
+    background-color:  rgb(236, 58, 58);
+}

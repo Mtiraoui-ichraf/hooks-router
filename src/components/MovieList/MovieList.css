@@ -1,6 +1,10 @@
 .thank{
-    display: flex;
-    flex-direction: row;
-    justify-content:space-between;
-    margin-top: 200px;
+    background-color: rgba(0, 0, 0, 0.883);
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    row-gap: 50px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    
 }
